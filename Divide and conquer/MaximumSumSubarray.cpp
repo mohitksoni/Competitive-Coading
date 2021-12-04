@@ -70,3 +70,38 @@ int main()
 
     return 0;
 }
+
+
+/Second Method
+
+#include<iostream>
+#include<vector>
+using namespace std;
+#define ll long long int
+
+
+int main(){
+    int n;
+    cin>>n;
+    vector<ll> v1;
+    
+    for(int i=0;i<n;i++){
+        ll temp;
+        cin>>temp;
+        v1.push_back(temp);
+    }
+    
+    ll sum = v1[0],max = v1[0];
+    for(int i=1;i<n;i++){
+        if(sum + v1[i] >= v1[i]){
+            sum += v1[i];
+        }
+        else{
+            sum = v1[i];
+        }
+        if(max < sum){
+            max = sum;
+        }
+    }
+    cout<<max;
+}
