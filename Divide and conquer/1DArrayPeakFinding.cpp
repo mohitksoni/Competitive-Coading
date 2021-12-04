@@ -1,3 +1,4 @@
+// A peak in an array is a position that is greater than or equal to its adjacent elements
 #include<iostream>
 using namespace std;
 typedef long long int ll;
