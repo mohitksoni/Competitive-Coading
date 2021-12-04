@@ -1,3 +1,4 @@
+// A peak element in a 2D grid is an element that is strictly greater than all of its adjacent neighbors to the left, right, top, and bottom
 // Idea Behind solving this problem is to utilize the concept of Divide and conquer
 // first we are taking the middle row and finding the maximum element in this row
 // Now check if the upper element is greater than this one, if that's true than there will be a peak in the upper half of the array
