@@ -18,7 +18,7 @@ ll SumOfQuotients(vector<ll> v1, int n,ll s){
         maximum = max(maximum, v1[i]);
     }
     
-    // binary search between k = 1 and maximum
+    // binary search between k = 1 and maximum + 1
     ll low = 1, high = maximum + 1;
     ll sol = high;
     while(low <= high){
