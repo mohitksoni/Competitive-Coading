@@ -3,6 +3,7 @@
 //The sub-array should be contiguous, i.e., a sub-array created by choosing the second and fourth
 //element by skipping the third element is invalid.
 
+//first Method (Divide and Conquer)
 
 #include <iostream>
 #include <climits>
@@ -72,7 +73,7 @@ int main()
 }
 
 
-/Second Method
+//Second Method (Brute force)
 
 #include<iostream>
 #include<vector>
