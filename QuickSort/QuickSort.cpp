@@ -45,7 +45,7 @@ int main(){
 }
 
 
-// Last element of the array is considered as pivot
+// First element of the array is considered as pivot
 
 #include<iostream>
 #define ll long long int
